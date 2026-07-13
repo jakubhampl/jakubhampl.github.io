@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 73%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -28,6 +28,11 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    color: #333;
+}
+p.index {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -47,6 +52,17 @@ ul {
   list-style-type: square;
 }
 
-li.nomargin {
-    top: -30px;
+li {
+    font-size: 1.4em;
+}
+
+img {
+    float: right;
+    margin: -10px -10px -10px -10px;
+    padding: 20px 0px 10px 30px;
+}
+sub {
+    vertical-align: text-bottom;
+    position: relative;
+    top:.3em;
 }
