@@ -42,3 +42,11 @@ ul.none {
   margin: 0;
   padding: 0;
 }
+
+ul {
+  list-style-type: square;
+}
+
+li.nomargin {
+    top: -10px;
+}
